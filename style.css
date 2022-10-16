@@ -1,0 +1,63 @@
+/* Tip, copy paste from 13c.01.01 & 13c.01.02 to get fonts and colors up and running ... */
+
+header .container {
+  margin-top: 3rem;
+}
+
+img.container {
+  padding: 2rem;
+}
+
+.header_text {
+  align-self: center;
+}
+
+#advantages h2 {
+  text-align: center;
+}
+
+main {
+  margin-top: 2rem;
+}
+
+main h2 {
+  margin-bottom: 0;
+}
+
+.advantages_cards.grid {
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.advantages_cards {
+  min-width: 350px;
+}
+
+#advantages .advantages_card_graphics {
+  background-image: url("https://source.unsplash.com/featured");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.advantages_cards article {
+  padding: 0;
+}
+
+.advantages_card_text {
+  padding: 80px 40px;
+}
+
+.product_graphics {
+  background-image: url("https://source.unsplash.com/featured/400,400");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+/* .advantages_cards.grid {
+  grid-template-columns: repeat(auto-fit, minmax(428px, 1fr));
+} */
